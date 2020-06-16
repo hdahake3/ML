@@ -39,6 +39,7 @@ def gradientDesc(xVal, yVal, learningRate, runTimes):
         v0 = temp0
         v1 = temp1
         plotter.plot(x, predOut(v0, v1, x))
+        
     return [v0, v1]
 
 print(gradientDesc(xCor, yCor, 1, 100000))
